@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae | Nama</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body>
+    <header
+      class="flex h-20 items-center px-5 md:px-12 lg:px-30 py-15 md:py-2.5 bg-accent text-primary"
+    >
+      <h1 class="flex-[3] cursor-pointer select-none">Amanda Kerr</h1>
+      <nav>
+        <img
+          class="cursor-pointer select-none inline md:hidden h-7 w-7"
+          src="./menu-icon.svg"
+          alt="menu-icon"
+        />
+        <ul class="hidden md:flex gap-12 p-0 justify-end">
+          <li
+            class="cursor-pointer select-none border-b-2 border-solid border-primary"
+          >
+            Home
+          </li>
+          <li
+            class="cursor-pointer select-none hover:border-b-2 hover:border-solid hover:border-primary"
+          >
+            Projects
+          </li>
+          <li
+            class="cursor-pointer select-none hover:border-b-2 hover:border-solid hover:border-primary"
+          >
+            Contacts
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="bg-primary text-accent px-5 md:px-12 lg:px-30 py-15 md:py-2.5 flex flex-col-reverse md:flex-row section-min-heigth gap-7 md:gap-12 items-center"
+      >
+        <div class="p-0 flex-1 flex flex-col justify-center gap-16">
+          <h1 class="text-3xl md:text-6xl">Helping brands to stand out</h1>
+          <p>
+            I’m Amanda Kerr, an experienced marketing creative, with a strong
+            track record of delivering sustainable results or brands across
+            numerous industries.
+          </p>
+          <button class="btn-custom cursor-pointer select-none">
+            Contact me
+          </button>
+        </div>
+        <div class="flex-1 p-0">
+          <img
+            class="w-1/2 h-1/2 md:w-full md:h-full mx-auto"
+            src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=822,fit=crop/kerriu1rk/image-mxkJZKMVOkcP3lWN.jpg"
+            alt="profile"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
