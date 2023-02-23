@@ -1,0 +1,17 @@
+init => inisialisasi git working directory
+syntax: git init
+
+add => untuk menyimpan file ke staging area
+syntax: git add list_file
+
+commit => menambah savepoint di local repository
+syntax: git commit -m "message"
+
+untuk penyimpanan ke github/gitlab
+remote => mengelola remote repository
+syntax: 
+git remote add namaRemote linkRemote //menambahkan
+git remote get-url namaRemote //melihat
+
+push => sinkronisasi antara local dan remote repository
+syntax: git push -u namaRemote branchLokal
